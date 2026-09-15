@@ -8,10 +8,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import androidx.lifecycle.ViewModelProvider
-import com.example.kotlindemo.ui.Homepage
+import com.example.kotlindemo.ui.screen.Homepage
 import com.example.kotlindemo.ui.theme.KotlinDemoTheme
-import com.example.kotlindemo.viewmodel.PicsumViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
