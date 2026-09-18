@@ -1,6 +1,6 @@
 package com.example.kotlindemo.data.model
 
-import kotlinx.serialization.SerialName
+import com.google.gson.annotations.SerializedName
 
 data class PicsumImageDto(
     val id: String,
@@ -8,6 +8,6 @@ data class PicsumImageDto(
     val width: Int,
     val height: Int,
     val url: String,
-    @SerialName("download_url")
+    @SerializedName("download_url")
     val downloadUrl: String
 )
